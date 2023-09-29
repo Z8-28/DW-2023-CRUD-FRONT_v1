@@ -2,7 +2,8 @@ import axios from "axios";
 import {useEffect, useState} from "react";
 import {useNavigate, useParams} from "react-router-dom";
 
-const URI ='http://localhost:8001/blogs/'
+//const URI = 'http://localhost:8001/blogs/'
+const URI = 'Crud-back-elastic-v14-env.eba-3b2dfsqg.us-east-1.elasticbeanstalk.com'
 
 const CompEditBlog=()=>{
     const[title, setTitle]=useState('')
